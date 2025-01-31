@@ -52,7 +52,7 @@ function App() {
                 while growing alongside experienced professionals in a dynamic team environment.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
               <div className="p-6 bg-gray-50 rounded-lg">
                 <div className="flex justify-center mb-4">
                   <Code2 size={32} className="text-blue-600" />
@@ -91,7 +91,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80"
+                src="jomslogo.jpg"
                 alt="Project 1"
                 className="w-full h-48 object-cover"
               />
@@ -123,7 +123,7 @@ function App() {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                src="jimslogo.jpg"
                 alt="Project 2"
                 className="w-full h-48 object-cover"
               />
@@ -154,7 +154,7 @@ function App() {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?auto=format&fit=crop&w=600&q=80"
+                src="./urlwebsitelogo.jpg"
                 alt="Project 3"
                 className="w-full h-48 object-cover"
               />
