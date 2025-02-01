@@ -39,7 +39,7 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">About Me</h2>
           <div className="max-w-3xl mx-auto">
             <img
-              src="./weblogo.jpg"
+              src="/Assets/profillogo.jpg"
               alt="Profile"
               className="w-48 h-48 rounded-full mx-auto mb-8 object-cover"
             />
@@ -91,7 +91,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="jomslogo.jpg"
+                src="/Assets/jomslogo.jpg"
                 alt="Project 1"
                 className="w-full h-48 object-cover"
               />
@@ -123,7 +123,7 @@ function App() {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="jimslogo.jpg"
+                src="/Assets/jimslogo.jpg"
                 alt="Project 2"
                 className="w-full h-48 object-cover"
               />
@@ -154,7 +154,7 @@ function App() {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="./urlwebsitelogo.jpg"
+                src="/Assets/urlwebsitelogo.jpg"
                 alt="Project 3"
                 className="w-full h-48 object-cover"
               />
