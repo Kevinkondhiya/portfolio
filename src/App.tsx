@@ -247,7 +247,7 @@ function App() {
               <Mail size={20} />
             </a>
           </div>
-          <p className="text-gray-400">© 2025 Kevin Kondhiya. All rights reserved.</p>
+          <p className="text-gray-400">© 2024 Kevin Kondhiya. All rights reserved.</p>
         </div>
       </footer>
     </div>
