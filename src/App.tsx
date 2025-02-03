@@ -182,6 +182,39 @@ function App() {
                 </div> */}
               </div>
             </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="/Assets/chatapp.jpg"
+                alt="Project 2"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">ChatApp</h3>
+                <p className="text-gray-600 mb-4 text-center">
+                This project is a dynamic and user-friendly group chat platform designed for seamless real-time communication without user login or registration. Simply accessing the shared URL makes a user part of the conversation.
+                </p>
+                <p className='text-blue-600 mb-4 text-center'>Asp.Net, SQL Server, HTML, Css, Javascript</p>
+                {/* <div className="flex justify-between items-center">
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <Code2 size={16} />
+                    View Code
+                  </a>
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <ExternalLink size={16} />
+                    Live Demo
+                  </a>
+                </div> */}
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
