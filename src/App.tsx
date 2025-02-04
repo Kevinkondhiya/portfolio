@@ -26,6 +26,10 @@ function App() {
             <a href="mailto:kevinkondhiya@gmail.com" className="hover:text-gray-300 transition-colors">
               <Mail size={24} />
             </a>
+
+            <a href="tel:9409410893" className="hover:text-gray-300 transition-colors">
+              <Mail size={24} />
+            </a>
           </div>
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
             <ChevronDown size={32} />
@@ -270,13 +274,13 @@ function App() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-6 text-center">
           <div className="flex justify-center space-x-6 mb-4">
-            <a href="https://github.com" className="hover:text-gray-300 transition-colors">
+            <a href="https://github.com/Kevinkondhiya" className="hover:text-gray-300 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="hover:text-gray-300 transition-colors">
+            <a href="https://www.linkedin.com/in/kevin-soni-" className="hover:text-gray-300 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:contact@example.com" className="hover:text-gray-300 transition-colors">
+            <a href="mailto:mailto:kevinkondhiya@gmail.com" className="hover:text-gray-300 transition-colors">
               <Mail size={20} />
             </a>
           </div>
