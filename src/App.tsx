@@ -194,7 +194,7 @@ function App() {
                 <p className="text-gray-600 mb-4 text-center">
                 This project is a dynamic and user-friendly group chat platform designed for seamless real-time communication without user login or registration. Simply accessing the shared URL makes a user part of the conversation.
                 </p>
-                <p className='text-blue-600 mb-4 text-center'>Asp.Net, SQL Server, HTML, Css, Javascript</p>
+                <p className='text-blue-600 mb-4 text-center'>Node.js, Express, HTML, Css, Javascript</p>
                 {/* <div className="flex justify-between items-center">
                   <a
                     href="#"
