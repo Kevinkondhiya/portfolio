@@ -1,5 +1,17 @@
-import React from 'react';
-import { Github,Lightbulb, Linkedin, Mail, ExternalLink, ChevronDown, Code2, GraduationCap, Award, BookOpen } from 'lucide-react';
+import React from "react";
+import {
+  Github,
+  Lightbulb,
+  Linkedin,
+  Mail,
+  ExternalLink,
+  ChevronDown,
+  Code2,
+  GraduationCap,
+  Award,
+  BookOpen,
+  Phone,
+} from "lucide-react";
 
 function App() {
   return (
@@ -10,37 +22,65 @@ function App() {
           <h1 className="text-5xl md:text-7xl font-bold mb-8 animate-fade-in">
             Kevin Kondhiya
           </h1>
-          <p className="text-xl md:text-2xl mb-6 text-gray-100">
-            
-          </p>
+          <p className="text-xl md:text-2xl mb-6 text-gray-100"></p>
           <p className="text-lg md:text-xl mb-12 text-gray-200">
             Passionate about Web Development & Problem Solving
           </p>
           <div className="flex justify-center space-x-6 mb-16">
-            <a href="https://github.com/Kevinkondhiya" className="hover:text-gray-300 transition-colors">
+            <a
+              href="https://github.com/Kevinkondhiya"
+              className="hover:text-gray-300 transition-colors"
+              target="_blank"
+            >
               <Github size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/kevin-soni-" className="hover:text-gray-300 transition-colors">
+            <a
+              href="https://www.linkedin.com/in/kevin-soni-"
+              className="hover:text-gray-300 transition-colors"
+              target="_blank"
+            >
               <Linkedin size={24} />
             </a>
-            <a href="mailto:kevinkondhiya@gmail.com" className="hover:text-gray-300 transition-colors">
+            <a
+              href="mailto:kevinkondhiya@gmail.com"
+              className="hover:text-gray-300 transition-colors"
+              target="_blank"
+            >
               <Mail size={24} />
             </a>
 
-            <a href="tel:9409410893" className="hover:text-gray-300 transition-colors">
-              <Mail size={24} />
+            <a
+              href="tel:9409410893"
+              className="hover:text-gray-300 transition-colors"
+              target="_blank"
+            >
+              <Phone size={24} />
             </a>
           </div>
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ChevronDown size={32} />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              height: "auto",
+              width: "auto",
+            }}
+          >
+            <div className="absolute bottom-8 transform -translate-x-1/2 animate-bounce">
+              <ChevronDown size={32} />
+            </div>
           </div>
+          {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <ChevronDown size={32} />
+          </div> */}
         </div>
       </section>
 
       {/* About Section */}
       <section className="py-20 bg-white" id="about">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">About Me</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">
+            About Me
+          </h2>
           <div className="max-w-3xl mx-auto">
             <img
               src="/Assets/profillogo.jpg"
@@ -48,12 +88,17 @@ function App() {
               className="w-48 h-48 rounded-full mx-auto mb-8 object-cover"
             />
             <div className="bg-gray-50 p-6 rounded-lg mb-8">
-              <h3 className="text-xl font-bold mb-4 text-gray-800 text-center">Objective</h3>
+              <h3 className="text-xl font-bold mb-4 text-gray-800 text-center">
+                Objective
+              </h3>
               <p className="text-lg text-gray-600 leading-relaxed text-center">
-                Aspiring software developer with a fresh perspective and strong foundation in Computer Science. 
-                Bringing expertise in modern web technologies, a keen eye for user experience, and an eagerness to contribute to 
-                innovative projects. Committed to continuous learning and ready to apply my technical skills 
-                while growing alongside experienced professionals in a dynamic team environment.
+                Aspiring software developer with a fresh perspective and strong
+                foundation in Computer Science. Bringing expertise in modern web
+                technologies, a keen eye for user experience, and an eagerness
+                to contribute to innovative projects. Committed to continuous
+                learning and ready to apply my technical skills while growing
+                alongside experienced professionals in a dynamic team
+                environment.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
@@ -61,7 +106,9 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <Code2 size={32} className="text-blue-600" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 text-gray-800">Technical Skills</h3>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">
+                  Technical Skills
+                </h3>
                 <p className="text-gray-600">React, HTML/CSS</p>
                 <p className="text-gray-500">Node.js-Express.js, PHP</p>
                 <p className="text-gray-500">MongoDB, MySQL</p>
@@ -78,7 +125,9 @@ function App() {
                 <div className="flex justify-center mb-4">
                   <Lightbulb size={32} className="text-blue-600" />
                 </div>
-                <h3 className="font-bold text-lg mb-2 text-gray-800">Strengths</h3>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">
+                  Strengths
+                </h3>
                 <p className="text-gray-600">Adaptability</p>
                 <p className="text-gray-600">Problem-solving</p>
                 <p className="text-gray-500">Collaborative Team Player</p>
@@ -91,7 +140,9 @@ function App() {
       {/* Projects Section */}
       <section className="py-20 bg-gray-50" id="projects">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">Projects Work  </h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">
+            Projects Work{" "}
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
@@ -100,12 +151,18 @@ function App() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">Joms</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">
+                  Joms
+                </h3>
                 <p className="text-gray-600 mb-4 text-center">
-                This project is a comprehensive solution designed to streamline jewelry order management and customer communication. The system enables users to efficiently track, process, and manage customer orders on a centralized platform.
-
+                  This project is a comprehensive solution designed to
+                  streamline jewelry order management and customer
+                  communication. The system enables users to efficiently track,
+                  process, and manage customer orders on a centralized platform.
                 </p>
-                <p className='text-blue-600 mb-4 text-center'>HTML, Css, PHP,  Javascript, MySQL</p>
+                <p className="text-blue-600 mb-4 text-center">
+                  HTML, Css, PHP, Javascript, MySQL
+                </p>
                 {/* <div className="flex justify-between items-center">
                   <a
                     href="#"
@@ -132,11 +189,18 @@ function App() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">Jims</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">
+                  Jims
+                </h3>
                 <p className="text-gray-600 mb-4 text-center">
-                This project is a powerful solution designed to simplify and streamline jewelry inventory management for businesses. It provides an efficient way to track stock, handle product information, and maintain accurate records
+                  This project is a powerful solution designed to simplify and
+                  streamline jewelry inventory management for businesses. It
+                  provides an efficient way to track stock, handle product
+                  information, and maintain accurate records
                 </p>
-                <p className='text-blue-600 mb-4 text-center'>Asp.Net, SQL Server, HTML, Css, Javascript</p>
+                <p className="text-blue-600 mb-4 text-center">
+                  Asp.Net, SQL Server, HTML, Css, Javascript
+                </p>
                 {/* <div className="flex justify-between items-center">
                   <a
                     href="#"
@@ -163,11 +227,18 @@ function App() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">Url Shortner</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">
+                  Url Shortner
+                </h3>
                 <p className="text-gray-600 mb-4 text-center">
-                A web-based service designed to create shortened URLs that are easy to share, manage, and analyze. This project simplifies long and complex web links, making them more user-friendly for sharing across social media, emails, and text messages.
+                  A web-based service designed to create shortened URLs that are
+                  easy to share, manage, and analyze. This project simplifies
+                  long and complex web links, making them more user-friendly for
+                  sharing across social media, emails, and text messages.
                 </p>
-                <p className='text-blue-600 mb-4 text-center'>Express, EJS, MongoDB</p>
+                <p className="text-blue-600 mb-4 text-center">
+                  Express, EJS, MongoDB
+                </p>
                 {/* <div className="flex justify-between items-center">
                   <a
                     href="#"
@@ -194,11 +265,18 @@ function App() {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">ChatApp</h3>
+                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">
+                  ChatApp
+                </h3>
                 <p className="text-gray-600 mb-4 text-center">
-                This project is a dynamic and user-friendly group chat platform designed for seamless real-time communication without user login or registration. Simply accessing the shared URL makes a user part of the conversation.
+                  This project is a dynamic and user-friendly group chat
+                  platform designed for seamless real-time communication without
+                  user login or registration. Simply accessing the shared URL
+                  makes a user part of the conversation.
                 </p>
-                <p className='text-blue-600 mb-4 text-center'>Node.js, Express, HTML, Css, Javascript</p>
+                <p className="text-blue-600 mb-4 text-center">
+                  Node.js, Express, HTML, Css, Javascript
+                </p>
                 {/* <div className="flex justify-between items-center">
                   <a
                     href="#"
@@ -217,8 +295,6 @@ function App() {
                 </div> */}
               </div>
             </div>
-
-
           </div>
         </div>
       </section>
@@ -226,7 +302,9 @@ function App() {
       {/* Contact Section */}
       <section className="py-20 bg-white" id="contact">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">Get In Touch</h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">
+            Get In Touch
+          </h2>
           <div className="max-w-lg mx-auto">
             <form className="space-y-6">
               <div>
@@ -274,17 +352,36 @@ function App() {
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-6 text-center">
           <div className="flex justify-center space-x-6 mb-4">
-            <a href="https://github.com/Kevinkondhiya" className="hover:text-gray-300 transition-colors">
+            <a
+              href="https://github.com/Kevinkondhiya"
+              className="hover:text-gray-300 transition-colors"
+            >
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/kevin-soni-" className="hover:text-gray-300 transition-colors">
+            <a
+              href="https://www.linkedin.com/in/kevin-soni-"
+              className="hover:text-gray-300 transition-colors"
+            >
               <Linkedin size={20} />
             </a>
-            <a href="mailto:mailto:kevinkondhiya@gmail.com" className="hover:text-gray-300 transition-colors">
+            <a
+              href="mailto:mailto:kevinkondhiya@gmail.com"
+              className="hover:text-gray-300 transition-colors"
+            >
               <Mail size={20} />
             </a>
+
+            <a
+              href="tel:9409410893"
+              className="hover:text-gray-300 transition-colors"
+              target="_blank"
+            >
+              <Phone size={24} />
+            </a>
           </div>
-          <p className="text-gray-400">© 2024 Kevin Kondhiya. All rights reserved.</p>
+          <p className="text-gray-400">
+            © 2024 Kevin Kondhiya. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
