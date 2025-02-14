@@ -35,7 +35,7 @@ function App() {
               <Github size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/kevin-soni-"
+              href="http://www.linkedin.com/in/kevin-soni-aa361426a"
               className="hover:text-gray-300 transition-colors"
               target="_blank"
             >
@@ -359,7 +359,7 @@ function App() {
               <Github size={20} />
             </a>
             <a
-              href="https://www.linkedin.com/in/kevin-soni-"
+              href="http://www.linkedin.com/in/kevin-soni-aa361426a"
               className="hover:text-gray-300 transition-colors"
             >
               <Linkedin size={20} />
