@@ -184,7 +184,7 @@ function App() {
                   process, and manage customer orders on a centralized platform.
                 </p>
                 <p className="text-blue-600 mb-4 text-center">
-                  HTML, Css, PHP, Javascript, MySQL
+                  Laravel, PHP, MySQL
                 </p>
               </div>
             </div>
