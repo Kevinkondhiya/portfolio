@@ -57,16 +57,6 @@ function App() {
               <Phone size={24} />
             </a>
           </div>
-          {/* Download CV/Resume Button */}
-          <div className="flex justify-center mb-16">
-            <a
-              href="/Assets/kevinresume.pdf"
-              download
-              className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition-colors"
-            >
-              Download CV
-            </a>
-          </div>
           <div
             style={{
               display: "flex",
@@ -79,7 +69,9 @@ function App() {
               <ChevronDown size={32} />
             </div>
           </div>
-          
+          {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <ChevronDown size={32} />
+          </div> */}
         </div>
       </section>
 
@@ -121,7 +113,14 @@ function App() {
                 <p className="text-gray-500">Node.js-Express.js, PHP</p>
                 <p className="text-gray-500">MongoDB, MySQL</p>
               </div>
-              
+              {/* <div className="p-6 bg-gray-50 rounded-lg">
+                <div className="flex justify-center mb-4">
+                  <Award size={32} className="text-blue-600" />
+                </div>
+                <h3 className="font-bold text-lg mb-2 text-gray-800">Achievements</h3>
+                <p className="text-gray-600">Dean's List</p>
+                <p className="text-gray-500">3.8 GPA</p>
+              </div> */}
               <div className="p-6 bg-gray-50 rounded-lg">
                 <div className="flex justify-center mb-4">
                   <Lightbulb size={32} className="text-blue-600" />
@@ -164,32 +163,26 @@ function App() {
                 <p className="text-blue-600 mb-4 text-center">
                   HTML, Css, PHP, Javascript, MySQL
                 </p>
+                {/* <div className="flex justify-between items-center">
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <Code2 size={16} />
+                    View Code
+                  </a>
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <ExternalLink size={16} />
+                    Live Demo
+                  </a>
+                </div> */}
               </div>
             </div>
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                src="/Assets/jomslogo.jpg"
-                alt="Project 1"
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">
-                  My Store
-                </h3>
-                <p className="text-gray-600 mb-4 text-center">
-                  This project is a comprehensive solution designed to
-                  streamline jewelry order management and customer
-                  communication. The system enables users to efficiently track,
-                  process, and manage customer orders on a centralized platform.
-                </p>
-                <p className="text-blue-600 mb-4 text-center">
-                  HTML, Css, PHP, Javascript, MySQL
-                </p>
-              </div>
-            </div>
-
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/jimslogo.jpg"
                 alt="Project 2"
@@ -208,10 +201,26 @@ function App() {
                 <p className="text-blue-600 mb-4 text-center">
                   Asp.Net, SQL Server, HTML, Css, Javascript
                 </p>
+                {/* <div className="flex justify-between items-center">
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <Code2 size={16} />
+                    View Code
+                  </a>
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <ExternalLink size={16} />
+                    Live Demo
+                  </a>
+                </div> */}
               </div>
-            </div> */}
+            </div>
 
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/urlwebsitelogo.jpg"
                 alt="Project 3"
@@ -230,10 +239,26 @@ function App() {
                 <p className="text-blue-600 mb-4 text-center">
                   Express, EJS, MongoDB
                 </p>
+                {/* <div className="flex justify-between items-center">
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <Code2 size={16} />
+                    View Code
+                  </a>
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <ExternalLink size={16} />
+                    Live Demo
+                  </a>
+                </div> */}
               </div>
-            </div> */}
+            </div>
 
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/chatapp.jpg"
                 alt="Project 2"
@@ -252,8 +277,24 @@ function App() {
                 <p className="text-blue-600 mb-4 text-center">
                   Node.js, Express, HTML, Css, Javascript
                 </p>
+                {/* <div className="flex justify-between items-center">
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <Code2 size={16} />
+                    View Code
+                  </a>
+                  <a
+                    href="#"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <ExternalLink size={16} />
+                    Live Demo
+                  </a>
+                </div> */}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
