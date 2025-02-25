@@ -178,10 +178,7 @@ function App() {
                   My Store
                 </h3>
                 <p className="text-gray-600 mb-4 text-center">
-                  This project is a comprehensive solution designed to
-                  streamline jewelry order management and customer
-                  communication. The system enables users to efficiently track,
-                  process, and manage customer orders on a centralized platform.
+                The aim of this project is to develop a system that enables authenticated users to efficiently manage product categories and products. It includes secure user authentication, allowing users to add, update, delete, and view categories while assigning products to specific categories. The system integrates MySQL with Eloquent ORM for optimized database management and utilizes Blade templating for a dynamic and user-friendly interface.
                 </p>
                 <p className="text-blue-600 mb-4 text-center">
                   Laravel, PHP, MySQL
