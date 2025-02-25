@@ -169,7 +169,7 @@ function App() {
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/Assets/jomslogo.jpg"
+                src="/Assets/mystore.jpg"
                 alt="Project 1"
                 className="w-full h-48 object-cover"
               />
