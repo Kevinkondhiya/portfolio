@@ -60,7 +60,7 @@ function App() {
           {/* Download CV/Resume Button */}
           <div className="flex justify-center mb-16">
             <a
-              href="/Assets/kevinresume.pdf"
+              href="/Assets/kevinkondhiya.pdf"
               download
               className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition-colors"
             >
@@ -167,7 +167,7 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/mystore.jpg"
                 alt="Project 1"
@@ -184,9 +184,9 @@ function App() {
                   Laravel, PHP, MySQL
                 </p>
               </div>
-            </div>
+            </div> */}
 
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/jimslogo.jpg"
                 alt="Project 2"
@@ -206,9 +206,9 @@ function App() {
                   Asp.Net, SQL Server, HTML, Css, Javascript
                 </p>
               </div>
-            </div> */}
+            </div>
 
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/urlwebsitelogo.jpg"
                 alt="Project 3"
@@ -228,7 +228,7 @@ function App() {
                   Express, EJS, MongoDB
                 </p>
               </div>
-            </div> */}
+            </div>
 
             {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
