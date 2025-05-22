@@ -60,7 +60,7 @@ function App() {
           {/* Download CV/Resume Button */}
           <div className="flex justify-center mb-16">
             <a
-              href="/Assets/kevinkondhiya.pdf"
+              href="/Assets/kevin_resume.pdf"
               download
               className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition-colors"
             >
