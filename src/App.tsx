@@ -79,7 +79,6 @@ function App() {
               <ChevronDown size={32} />
             </div>
           </div>
-          
         </div>
       </section>
 
@@ -121,7 +120,7 @@ function App() {
                 <p className="text-gray-500">Node.js-Express.js, PHP</p>
                 <p className="text-gray-500">MongoDB, MySQL</p>
               </div>
-              
+
               <div className="p-6 bg-gray-50 rounded-lg">
                 <div className="flex justify-center mb-4">
                   <Lightbulb size={32} className="text-blue-600" />
@@ -226,6 +225,30 @@ function App() {
                 </p>
                 <p className="text-blue-600 mb-4 text-center">
                   Express, EJS, MongoDB
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="/Assets/food.jpg"
+                alt="Project 2"
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2 text-gray-800 text-center">
+                  Menu App
+                </h3>
+                <p className="text-gray-600 mb-4 text-center">
+                  This Menu App is made using Node.js, Express, and MongoDB. It
+                  helps you create and manage food menus like "Gujarati Thali"
+                  and "Punjabi Thali", supports user roles, hiding menus, and
+                  includes admin login with JWT authentication. The admin can
+                  manage menus and menu items, and Swagger is used to show and
+                  test all the APIs.
+                </p>
+                <p className="text-blue-600 mb-4 text-center">
+                  Express.js, MongoDB, swagger ui
                 </p>
               </div>
             </div>
