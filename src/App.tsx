@@ -166,7 +166,7 @@ function App() {
               </div>
             </div>
 
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/mystore.jpg"
                 alt="Project 1"
@@ -183,7 +183,7 @@ function App() {
                   Laravel, PHP, MySQL
                 </p>
               </div>
-            </div> */}
+            </div>
 
             {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
