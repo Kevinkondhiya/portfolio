@@ -60,7 +60,7 @@ function App() {
           {/* Download CV/Resume Button */}
           <div className="flex justify-center mb-16">
             <a
-              href="/Assets/kevin_resume.pdf"
+              href="/Assets/kevin_kondhiya.pdf"
               download
               className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition-colors"
             >
@@ -116,7 +116,7 @@ function App() {
                 <h3 className="font-bold text-lg mb-2 text-gray-800">
                   Technical Skills
                 </h3>
-                <p className="text-gray-600">React, HTML/CSS</p>
+                <p className="text-gray-600">HTML/CSS</p>
                 <p className="text-gray-600">Php-Laravel</p>
                 <p className="text-gray-500">Node.js-Express.js</p>
                 <p className="text-gray-500">MongoDB, MySQL</p>
@@ -360,7 +360,7 @@ function App() {
             </a>
           </div>
           <p className="text-gray-400">
-            © 2024 Kevin Kondhiya. All rights reserved.
+            © 2025 Kevin Kondhiya. All rights reserved.
           </p>
         </div>
       </footer>
