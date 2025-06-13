@@ -185,7 +185,7 @@ function App() {
               </div>
             </div> */}
 
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/jimslogo.jpg"
                 alt="Project 2"
@@ -205,7 +205,7 @@ function App() {
                   Asp.Net, SQL Server, HTML, Css, Javascript
                 </p>
               </div>
-            </div>
+            </div> */}
 
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
@@ -229,7 +229,7 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 src="/Assets/food.jpg"
                 alt="Project 2"
@@ -251,7 +251,7 @@ function App() {
                   Express.js, MongoDB, swagger ui
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
