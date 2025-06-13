@@ -117,7 +117,8 @@ function App() {
                   Technical Skills
                 </h3>
                 <p className="text-gray-600">React, HTML/CSS</p>
-                <p className="text-gray-500">Node.js-Express.js, PHP</p>
+                <p className="text-gray-600">Php-Laravel</p>
+                <p className="text-gray-500">Node.js-Express.js</p>
                 <p className="text-gray-500">MongoDB, MySQL</p>
               </div>
 
